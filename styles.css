@@ -2,24 +2,19 @@
    CSS Variables & Root Styles
    ======================================== */
 :root {
-    --primary-color: #4f46e5;
-    --primary-dark: #3730a3;
-    --secondary-color: #3b82f6;
-    --accent-color: #60a5fa;
-    --text-dark: #1e293b;
-    --text-light: #64748b;
-    --background-light: #f1f5f9;
+    --primary-color: #1e3a8a;        /* Deep Navy Blue */
+    --secondary-color: #0891b2;      /* Teal */
+    --accent-color: #06b6d4;         /* Bright Cyan */
+    --text-dark: #0f172a;            
+    --text-light: #64748b;           
+    --background: #f0f9ff;           /* Very Light Blue */
     --white: #ffffff;
-    --border-color: #cbd5e1;
-    --shadow-sm: 0 2px 8px rgba(79, 70, 229, 0.1);
-    --shadow-md: 0 4px 16px rgba(79, 70, 229, 0.1);
-    --shadow-lg: 0 8px 32px rgba(79, 70, 229, 0.15);
-    --transition-fast: 0.2s ease;
-    --transition-normal: 0.3s ease;
-    --transition-slow: 0.5s ease;
-    --border-radius-sm: 8px;
-    --border-radius-md: 12px;
-    --border-radius-lg: 16px;
+    --success: #10b981;              
+    --warning: #f59e0b;              
+    --danger: #ef4444;               
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(30, 58, 138, 0.15);
+    --transition: all 0.3s ease;
 }
 
 * {
@@ -1321,3 +1316,4 @@ textarea {
         display: none;
     }
 }
+
